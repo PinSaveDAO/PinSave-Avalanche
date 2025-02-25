@@ -45,7 +45,7 @@
     "generate": "hardhat generate",
     "account": "hardhat account",
     "lint": "prettier --write --plugin=prettier-plugin-solidity contracts/**/*.sol",
-    "deploy": "hardhat run scripts/deployPinSave.js --network optimism",
+    "deploy": "hardhat run scripts/deployPinSave.js --network avalanche",
     "verify": "hardhat verify --network optimism 0x3629D50aB30E75577614Cb6c3CC9723EaAe23c70 PinSave PIN 0x816f2Dd515f474f9FbAF461BD53E8880BDc33a87"
   }
 }
